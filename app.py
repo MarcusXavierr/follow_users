@@ -26,7 +26,7 @@ def follow(array_users, driver):
             button = find_follow_button(buttons)
             if button != None:
                 button.click()
-            sleep(2)
+            sleep(5)
         except Exception as e:
             print(e)
             
