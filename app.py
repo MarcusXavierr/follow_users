@@ -27,8 +27,8 @@ def follow(array_users, driver):
             if button != None:
                 button.click()
             sleep(1)
-        except:
-            print('Bug')
+        except Exception as e:
+            print(e)
             
 #! Add instagram accounts here
 #* Example
